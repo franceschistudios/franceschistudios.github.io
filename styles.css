@@ -1,4 +1,4 @@
-html { display:block; }
+*html { display:block; }
 h1 { font-size:24px; }
 h3 { font-size:20px; font-style: italic; margin:10px 0; }
 p { margin:10px 0; }
