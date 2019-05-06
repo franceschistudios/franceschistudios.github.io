@@ -1,4 +1,107 @@
-*html { display:block; }
-h1 { font-size:24px; }
-h3 { font-size:20px; font-style: italic; margin:10px 0; }
-p { margin:10px 0; }
+ hr{
+  border: 1px solid white;
+}
+ body {
+      animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+      animation-iteration-count:infinite;
+      margin: 50px;
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background:   #F5F5DC;}
+      25%  {background: #E0FFFF;}
+      50%  {background:   #FEEAF5;}
+      75%  {background:     #E1EEC7;}
+      100% {background:   #FFFACD;}
+    }
+
+}
+
+.wrapper{
+  margin:1em;
+}
+.hide {
+    display: none;
+}
+#jin {text-decoration: underline;
+	color: lightblue;}
+#cross{text-decoration: line-through;}
+.menu {
+   margin: 0; width: 100%;
+  font-family: courier, san-serif;
+  font-size:1em;
+  padding:0px;
+  margin-top: 40px;
+  margin-bottom:20px;
+
+}
+#pages{ display:flex; flex-flow:row wrap; justify-content: left;
+	font-family: courier, san-serif;
+  font-size:1em;
+  margin-left: 0em;
+  margin-right:0em;
+}
+header{
+  padding: 0; margin: 0; width: 100%;
+  font-family: courier, san-serif;
+  font-size:1em;
+  display:flex; flex-flow:row wrap; justify-content: space-around;
+  padding:0px;
+  margin-top: 30px;
+  margin-bottom:20px;
+
+}
+#special{width:100%}
+.contact{padding-left: 0;
+	align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+	justify-content: space-around;
+	}
+
+#image{
+max-height: 500px;
+height: 100%
+	padding:2em;
+	/*border:1px solid #ccc;*/
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+      text-decoration: underline;
+  
+
+}
+ul {
+  list-style-type: none;
+}
+.texts{
+  margin:0 auto;
+
+  width:100%;
+  max-width: 500px;
+}
+.footer {
+   position: fixed;
+     font-family: courier, san-serif;
+  font-size:1em;
+     bottom: 0;
+  right: 0;
+  width: 200px;
+  margin-right:50px;
+   text-align: right;
+  }
